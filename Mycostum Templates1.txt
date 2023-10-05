@@ -1,0 +1,28 @@
+Console.WriteLine("Please enter the package weight:");
+//get weight data from the user
+double weight = Convert.ToDouble(Console.ReadLine());
+//check if weight is over 50 and end the program if it is
+if (weight > 50)
+{
+Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day");
+Console.ReadLine();
+}
+else {
+
+if (true)
+{
+    Console.WriteLine("Hello!");
+}
+
+int num1 = 7;
+int num2 = 12;
+
+string result = num1 > num2 ? "num1 is greater than num2" : num1 is not greater than num2";
+Console.WriteLine(result);
+
+string name = "Brett";
+
+if (name == "Jesse")
+{
+   Console.WriteLine("Your name is Jesse");
+}
